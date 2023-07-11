@@ -139,6 +139,22 @@
       ],
       "async": false
     },
+    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/hari/HARI/projects/react/rounded-process-flow/src/style/globals.css": {
+      "id": "(app-client)/./src/style/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/next/dist/client/image-component.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
@@ -162,28 +178,12 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/src/style/globals.css": {
-      "id": "(app-client)/./src/style/globals.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/hari/HARI/projects/react/rounded-process-flow/src/app/page": [],
     "/Users/hari/HARI/projects/react/rounded-process-flow/src/app/layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "/Users/hari/HARI/projects/react/rounded-process-flow/src/app/page": []
   }
 }

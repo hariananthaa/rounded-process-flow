@@ -58,7 +58,10 @@ module.exports = {
         },
         path_animation: {
           "9.1%":{
-            transform: "translateX(230px) rotate(0deg)"
+            transform: "translate(0%,0%) rotate(0deg)"
+          },
+          "13.65%":{
+            transform: "translate(160px,-80px) rotate(20deg)"
           },
           "18.2%":{
             transform: "translate(120px,-187px) rotate(40deg)"
