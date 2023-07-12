@@ -11,11 +11,48 @@ export default function Home(): ReactElement {
             <div className="animate-spin_anticlockwise w-full h-full m-auto border-gray-300 rounded-full border-2 border-dashed absolute -bottom-28 left-[50%] right-0 mx-auto"></div>
           </div>
           <div
-            // key={`arrow_${index + 1}`}
-            className="w-6 h-6 rotate-[155deg] rounded-full absolute bottom-[110px] left-44 flex justify-center items-center bg-white z-40"
+            key={`arrow_1`}
+            className="w-6 h-6 -rotate-90 rounded-full absolute -bottom-[13px] left-36 flex justify-center items-center bg-white z-40"
           >
-            <i className="fa-solid text-gray-500 fa-angle-down"></i>
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
+          <div
+            key={`arrow_2`}
+            className="w-6 h-6 rotate-[162deg] rounded-full absolute bottom-[160px] left-[156px] flex justify-center items-center bg-white z-40"
+          >
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
+          </div>
+          <div
+            key={`arrow_3`}
+            className="w-6 h-6 rotate-[220deg] rounded-full absolute top-[250px] left-[228px] flex justify-center items-center bg-white z-40"
+          >
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
+          </div>
+          <div
+            key={`arrow_4`}
+            className="w-6 h-6 rotate-[-90deg] rounded-full absolute top-[102px] left-0 right-0 mx-auto flex justify-center items-center bg-white z-40"
+          >
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
+          </div>
+          <div
+            key={`arrow_5`}
+            className="w-6 h-6 rotate-[-47deg] rounded-full absolute top-[250px] right-[228px] flex justify-center items-center bg-white z-40"
+          >
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
+          </div>
+          <div
+            key={`arrow_6`}
+            className="w-6 h-6 rotate-[20deg] rounded-full absolute bottom-[160px] right-[156px] flex justify-center items-center bg-white z-40"
+          >
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
+          </div>
+          <div
+            key={`arrow_1`}
+            className="w-6 h-6 -rotate-90 rounded-full absolute -bottom-[13px] right-36 flex justify-center items-center bg-white z-40"
+          >
+            <i className="fa-solid text-gray-400 fa-angle-down"></i>
+          </div>
+
           <div className="custom-border p-[1px] animate-border_dance w-full border-none flex-shrink-0"></div>
           <div className="w-[550px] h-1 bg-white absolute -bottom-1 left-0 right-0 mx-auto "></div>
           <div className="w-full h-max">
