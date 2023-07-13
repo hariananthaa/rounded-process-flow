@@ -6,7 +6,7 @@ export default function Home(): ReactElement {
   return (
     <section className="w-full h-max relative flex justify-center">
       <div className="w-[1300px] h-[900px] mx-auto flex flex-col justify-start items-center relative overflow-x-hidden overflow-y-clip">
-        <div className="h-[800px] w-[1100px] absolute top-0 m-auto left-1/2 -translate-x-1/2">
+        <div className="h-[800px] w-[1100px] absolute top-0 m-auto">
           <div className="w-[800px]  h-full mx-auto relative flex justify-center items-center overflow-y-clip  -translate-x-1/2">
             <div className="animate-spin_anticlockwise w-full h-full m-auto border-gray-300 rounded-full border-2 border-dashed absolute -bottom-28 left-[50%] right-0 mx-auto"></div>
           </div>
@@ -206,14 +206,13 @@ export default function Home(): ReactElement {
           </div>
 
           {/* Main content */}
-          <div className="w-1/2 h-max absolute top-0 bottom-0 left-0 right-0 m-auto space-y-[7%] bg-red-30 pt-[15%]">
+          <div className="w-1/2 h-max absolute top-0 bottom-0 left-0 right-0 m-auto space-y-[7%] bg-red-30 pt-[15%] z-40">
             <div className="w-full text-center space-y-[5%]">
-              <h1 className="text-4xl sm:text-5xl font-black text-gray-700 text-center md:text-6xl lg:text-6xl lg:w-[80%] mx-auto ">
-                Put your content here!
-                {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
-                  Your Dream{" "}
+              <h1 className="text-4xl sm:text-5xl font-black text-gray-700 text-center md:text-6xl lg:text-5xl lg:w-[100%] mx-auto ">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
+                  Helping You Achieve Your Goals and Dreams.
                 </span>
-                Home <br />
+                {/* Home <br />
                 Our Expert{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
                   Guidance{" "}
@@ -223,7 +222,6 @@ export default function Home(): ReactElement {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Veritatis consequatur excepturi aliquid qui maxime neque minus
                 hic ullam soluta aperiam illum nesciunt ipsa fuga doloribus
-                quis, sunt aut at odio consequuntur odit dolore! Culpa enim
               </p>
             </div>
             <div className="w-full flex justify-center items-center space-x-3">

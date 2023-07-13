@@ -147,16 +147,16 @@
       ],
       "async": false
     },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/@fortawesome/fontawesome-free/css/all.min.css": {
-      "id": "(app-client)/./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+    "/Users/hari/HARI/projects/react/rounded-process-flow/src/style/globals.css": {
+      "id": "(app-client)/./src/style/globals.css",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/src/style/globals.css": {
-      "id": "(app-client)/./src/style/globals.css",
+    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/@fortawesome/fontawesome-free/css/all.min.css": {
+      "id": "(app-client)/./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
