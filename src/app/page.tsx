@@ -4,51 +4,51 @@ import Human from "public/human.jpg";
 
 export default function Home(): ReactElement {
   return (
-    <section className="w-full h-max relative flex justify-center">
+    <section className="w-full h-max -mt-[8%] sm:-mt-[4%] lg:-mt-[2%] relative flex justify-center">
       <div className="w-[1300px] h-[900px] mx-auto flex flex-col justify-start items-center relative overflow-x-hidden overflow-y-clip">
         <div className="h-[800px] w-[1100px] absolute top-0 m-auto">
-          <div className="w-[800px]  h-full mx-auto relative flex justify-center items-center overflow-y-clip  -translate-x-1/2">
+          <div className="w-[800px] h-full mx-auto relative flex justify-center items-center overflow-y-clip  -translate-x-1/2">
             <div className="animate-spin_anticlockwise w-full h-full m-auto border-gray-300 rounded-full border-2 border-dashed absolute -bottom-28 left-[50%] right-0 mx-auto"></div>
           </div>
           <div
             key={`arrow_1`}
-            className="w-6 h-6 -rotate-90 rounded-full absolute -bottom-[13px] left-36 flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 -rotate-90 rounded-full absolute -bottom-[13px] left-36 flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
           <div
             key={`arrow_2`}
-            className="w-6 h-6 rotate-[162deg] rounded-full absolute bottom-[160px] left-[156px] flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 rotate-[162deg] rounded-full absolute bottom-[160px] left-[156px] flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
           <div
             key={`arrow_3`}
-            className="w-6 h-6 rotate-[220deg] rounded-full absolute top-[250px] left-[228px] flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 rotate-[220deg] rounded-full absolute top-[250px] left-[228px] flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
           <div
             key={`arrow_4`}
-            className="w-6 h-6 rotate-[-90deg] rounded-full absolute top-[102px] left-0 right-0 mx-auto flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 rotate-[-90deg] rounded-full absolute top-[102px] left-0 right-0 mx-auto flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
           <div
             key={`arrow_5`}
-            className="w-6 h-6 rotate-[-47deg] rounded-full absolute top-[250px] right-[228px] flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 rotate-[-47deg] rounded-full absolute top-[250px] right-[228px] flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
           <div
             key={`arrow_6`}
-            className="w-6 h-6 rotate-[20deg] rounded-full absolute bottom-[160px] right-[156px] flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 rotate-[20deg] rounded-full absolute bottom-[160px] right-[156px] flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
           <div
             key={`arrow_7`}
-            className="w-6 h-6 -rotate-90 rounded-full absolute -bottom-[13px] right-36 flex justify-center items-center bg-white z-40"
+            className="w-6 h-6 -rotate-90 rounded-full absolute -bottom-[13px] right-36 flex justify-center items-center bg-white z-0"
           >
             <i className="fa-solid text-gray-400 fa-angle-down"></i>
           </div>
@@ -56,7 +56,7 @@ export default function Home(): ReactElement {
           <div className="w-[550px] h-1 bg-white absolute -bottom-1 left-0 right-0 mx-auto "></div>
           <div className="w-full h-max">
             {[...Array(5)].map((_, index) => {
-              const delay = index * -10;
+              const delay = index * 10;
               return (
                 <div
                   style={{
@@ -206,12 +206,13 @@ export default function Home(): ReactElement {
           </div>
 
           {/* Main content */}
-          <div className="w-1/2 h-max absolute top-0 bottom-0 left-0 right-0 m-auto space-y-[7%] bg-red-30 pt-[15%] z-40">
-            <div className="w-full text-center space-y-[5%]">
-              <h1 className="text-4xl sm:text-5xl font-black text-gray-700 text-center md:text-6xl lg:text-5xl lg:w-[100%] mx-auto ">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
-                  Helping You Achieve Your Goals and Dreams.
-                </span>
+          <div className="w-[33%] sm:w-[45%] md:w-[50%] bg-red-30 h-max absolute top-0 bottom-0 left-0 right-0 m-auto space-y-[20%] sm:space-y-[13%] md:space-y-[10%] bg-red-30 pt-[10%] sm:pt-[20%] md:pt-[15%] z-40">
+            <div className="w-full text-center space-y-[10%] sm:space-y-[5%]">
+              <h1 className="text-[44px] leading-[46px] sm:text-5xl font-black text-gray-700 text-center md:text-6xl lg:text-6xl mx-auto ">
+                Put your content here!
+                {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
+                  Put your content here!
+                </span> */}
                 {/* Home <br />
                 Our Expert{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
@@ -224,29 +225,31 @@ export default function Home(): ReactElement {
                 hic ullam soluta aperiam illum nesciunt ipsa fuga doloribus
               </p>
             </div>
-            <div className="w-full flex justify-center items-center space-x-3">
+            <div className="w-full flex flex-col sm:flex-row sm:space-y-0 space-y-5 justify-center items-center sm:space-x-3 z-20">
               <button
-                className={`bg-gray-800 text-white rounded-md py-3 w-72 font-medium text-lg lg:w-60 lg:text-xl`}
+                className={`bg-gray-800 text-white rounded-md py-3 w-72 font-medium text-lg sm:w-48 lg:text-x pl-2`}
               >
-                Get started for free
-                <i className="fa-solid fa-angle-right ml-2"></i>
+                Get started
+                <i className="fa-solid fa-angle-right ml-3"></i>
               </button>
               <button
-                className={` text-gray-600 border border-[#8c949e] rounded-md py-3 w-72 font-medium text-lg lg:w-60 lg:text-xl hover:border-[#8c949e]`}
+                className={`bg-white text-gray-600 border border-[#8c949e] rounded-md py-3 w-72 font-medium text-lg sm:w-48 lg:text-x hover:border-[#8c949e]`}
               >
                 Plans & Pricing
-                <i className="fa-solid fa-angle-right ml-2"></i>
+                <i className="fa-solid fa-angle-right ml-3"></i>
               </button>
             </div>
           </div>
         </div>
-        <div className="px-3 bg-gray-50 py-1 w-max h-max absolute bottom-[9.5%] left-2 rounded-full text-gray-700 border border-gray-400 text-sm">
-          Before
-          <i className="fa-solid fa-forward ml-2 text-gray-500" />
-        </div>
-        <div className="px-3 bg-gray-50 py-1 w-max h-max absolute bottom-[9.5%] right-5 rounded-full text-gray-700 border border-gray-400 text-sm">
-          <i className="fa-solid fa-backward mr-2 text-gray-500" />
-          After
+        <div className="w-full h-max hidden md:block">
+          <div className="px-3 bg-gray-50 py-1 w-max h-max absolute bottom-[9.5%] left-2 rounded-full text-gray-700 border border-gray-400 text-sm">
+            Before
+            <i className="fa-solid fa-forward ml-2 text-gray-500" />
+          </div>
+          <div className="px-3 bg-gray-50 py-1 w-max h-max absolute bottom-[9.5%] right-5 rounded-full text-gray-700 border border-gray-400 text-sm">
+            <i className="fa-solid fa-backward mr-2 text-gray-500" />
+            After
+          </div>
         </div>
       </div>
     </section>

@@ -40,17 +40,17 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+    "(app-client)/./public/human.jpg": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "id": "(sc_client)/./public/human.jpg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./public/human.jpg": {
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
       "*": {
-        "id": "(sc_client)/./public/human.jpg",
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -139,27 +139,11 @@
       ],
       "async": false
     },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "/Users/hari/HARI/projects/react/rounded-process-flow/public/human.jpg": {
+      "id": "(app-client)/./public/human.jpg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/src/style/globals.css": {
-      "id": "(app-client)/./src/style/globals.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/@fortawesome/fontawesome-free/css/all.min.css": {
-      "id": "(app-client)/./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -179,19 +163,35 @@
       ],
       "async": false
     },
-    "/Users/hari/HARI/projects/react/rounded-process-flow/public/human.jpg": {
-      "id": "(app-client)/./public/human.jpg",
+    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/hari/HARI/projects/react/rounded-process-flow/node_modules/@fortawesome/fontawesome-free/css/all.min.css": {
+      "id": "(app-client)/./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/hari/HARI/projects/react/rounded-process-flow/src/style/globals.css": {
+      "id": "(app-client)/./src/style/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/hari/HARI/projects/react/rounded-process-flow/src/app/page": [],
     "/Users/hari/HARI/projects/react/rounded-process-flow/src/app/layout": [
       "static/css/app/layout.css"
-    ],
-    "/Users/hari/HARI/projects/react/rounded-process-flow/src/app/page": []
+    ]
   }
 }
