@@ -56,7 +56,7 @@ export default function Home(): ReactElement {
           <div className="w-[550px] h-1 bg-white absolute -bottom-1 left-0 right-0 mx-auto "></div>
           <div className="w-full h-max">
             {[...Array(5)].map((_, index) => {
-              const delay = index * 10;
+              const delay = index * -10;
               return (
                 <div
                   style={{
@@ -210,19 +210,12 @@ export default function Home(): ReactElement {
             <div className="w-full text-center space-y-[10%] sm:space-y-[5%]">
               <h1 className="text-[44px] leading-[46px] sm:text-5xl font-black text-gray-700 text-center md:text-6xl lg:text-6xl mx-auto ">
                 Put your content here!
-                {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
-                  Put your content here!
-                </span> */}
-                {/* Home <br />
-                Our Expert{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-[#7EE687]">
-                  Guidance{" "}
-                </span> */}
               </h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis consequatur excepturi aliquid qui maxime neque minus
-                hic ullam soluta aperiam illum nesciunt ipsa fuga doloribus
+                Explicabo, sint fuga beatae alias enim, nesciunt molestiae vitae
+                autem cumque, expedita pariatur accusamus fugiat assumenda
+                aperiam quia cupiditate! Voluptatem, similique repudiandae.
               </p>
             </div>
             <div className="w-full flex flex-col sm:flex-row sm:space-y-0 space-y-5 justify-center items-center sm:space-x-3 z-20">
